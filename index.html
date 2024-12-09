@@ -8,7 +8,6 @@
 </head>
 <body>
   <div class="dashboard">
-    <!-- Profile Section -->
     <div class="profile-card">
       <div class="profile">
         <img src="image-jeremy.png" alt="Profile" class="profile-image">
@@ -17,6 +16,7 @@
           <h2>Jeremy Robson</h2>
         </div>
       </div>
+
       <div class="time-filters">
         <button class="time-button active" onclick="updateTimeframe('daily')">Daily</button>
         <button class="time-button" onclick="updateTimeframe('weekly')">Weekly</button>
@@ -24,33 +24,38 @@
       </div>
     </div>
 
-    <!-- Stats Section -->
+   
     <div class="stats">
       <div class="stat-card work">
         <h3>Work</h3>
         <p class="hours" id="work-hours">5hrs</p>
         <p class="last-week" id="work-last">Last Week - 7hrs</p>
       </div>
+
       <div class="stat-card play">
         <h3>Play</h3>
         <p class="hours" id="play-hours">1hr</p>
         <p class="last-week" id="play-last">Last Week - 2hrs</p>
       </div>
+
       <div class="stat-card study">
         <h3>Study</h3>
         <p class="hours" id="study-hours">0hrs</p>
         <p class="last-week" id="study-last">Last Week - 1hr</p>
       </div>
+
       <div class="stat-card exercise">
         <h3>Exercise</h3>
         <p class="hours" id="exercise-hours">1hr</p>
         <p class="last-week" id="exercise-last">Last Week - 1hr</p>
       </div>
+
       <div class="stat-card social">
         <h3>Social</h3>
         <p class="hours" id="social-hours">3hrs</p>
         <p class="last-week" id="social-last">Last Week - 5hrs</p>
       </div>
+      
       <div class="stat-card self-care">
         <h3>Self Care</h3>
         <p class="hours" id="self-care-hours">1hr</p>

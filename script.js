@@ -48,22 +48,14 @@ const data = {
     document.getElementById("study-hours").textContent = data[timeframe].study.hours;
     document.getElementById("study-last").textContent = data[timeframe].study.last;
   
-    document.getElementById("exercise-hours").textContent =
-      data[timeframe].exercise.hours;
-    document.getElementById("exercise-last").textContent =
-      data[timeframe].exercise.last;
+    document.getElementById("exercise-hours").textContent = data[timeframe].exercise.hours;
+    document.getElementById("exercise-last").textContent = data[timeframe].exercise.last;
   
-    document.getElementById("social-hours").textContent =
-      data[timeframe].social.hours;
-    document.getElementById("social-last").textContent =
-      data[timeframe].social.last;
+    document.getElementById("social-hours").textContent = data[timeframe].social.hours;
+    document.getElementById("social-last").textContent = data[timeframe].social.last;
   
-    document.getElementById("self-care-hours").textContent =
-      data[timeframe].selfCare.hours;
-    document.getElementById("self-care-last").textContent =
-      data[timeframe].selfCare.last;
+    document.getElementById("self-care-hours").textContent = data[timeframe].selfCare.hours;
+    document.getElementById("self-care-last").textContent = data[timeframe].selfCare.last;
   }
-  
-  // Initialize with 'daily' timeframe
   updateTimeframe("daily");
   
